@@ -11,12 +11,6 @@ body{
 }
 
 @media screen and (max-width:479px){
-  .mainContainer{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-  }
-
   nav{
     height: 10vh;
   }
@@ -36,13 +30,13 @@ body{
 
   /* List items */
   .customListGroup{
-    list-style-type: none;
-    position: absolute;
-    right:5%;
     width: 100vw;
+    position: absolute;
+    list-style-type: none;
   }
   
   .customListItem{
+    width: 100vw;
     list-style-type: none;
     border-bottom:0.1rem solid #ddd;
   }
@@ -68,7 +62,7 @@ body{
     width:3vw;
     height: 10rem; 
     right: 50%;
-    margin-right: 12rem;
+    margin-right: 14rem;
   } 
 
   .imgMain{
